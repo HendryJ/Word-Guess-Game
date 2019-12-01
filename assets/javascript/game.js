@@ -4,39 +4,39 @@ var wordGuessGame = {
     // Object of all words that can be chosen, along with info such as their picture and a song clip.
     wordsToPick: {
       ariel: {
-        picture: "Ariel.png",
+        picture: "Ariel.png"
         
       },
       aurora: {
-        picture: "Aurora.jpg",
+        picture: "Aurora.jpg"
        
       },
       belle: {
-        picture: "Belle.png",
+        picture: "Belle.png"
         
       },
       cinderella: {
-        picture: "Cinderella.jpg",
+        picture: "Cinderella.jpg"
         
       },
       jasmine: {
-        picture: "jasmine.jpg",
+        picture: "jasmine.jpg"
         
       },
       pocahontas: {
-        picture: "Pocahontas.jpg",
+        picture: "Pocahontas.jpg"
         
       },
       rapunzel: {
-        picture: "rapunzel.jpg",
+        picture: "rapunzel.jpg"
         
       },
       snowwhite: {
-        picture: "Snow White.jpg",
+        picture: "Snow White.jpg"
         
       },
       tiana: {
-        picture: "Tiana.jpg",
+        picture: "Tiana.jpg"
         
      
       }
