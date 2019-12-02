@@ -203,18 +203,17 @@ var wordGuessGame = {
         document.querySelector("#wins").innerHTML = this.wins;
   
         // Update the song title and band on the page.
-        document.querySelector("#music").innerHTML = this.wordsToPick[this.wordInPlay].song +
-        " By " + this.wordInPlay;
+        document.querySelector("#music").innerHTML = this.wordInPlay;
   
         // Update the image of the band on the page.
         document.querySelector("#band-div").innerHTML =
-          "<img class='band-image' src='../images/" +
+          "<img class='band-image' src='./assets/images/" +
           this.wordsToPick[this.wordInPlay].picture + "' alt='" +
           this.wordsToPick[this.wordInPlay].song + "'>";
   
         // Play an audio track of the band.
-        var audio = new Audio(this.wordsToPick[this.wordInPlay].preview);
-        audio.play();
+        // var audio = new Audio(this.wordsToPick[this.wordInPlay].preview);
+        // audio.play();
   
         // return true, which will trigger the restart of our game in the updatePage function.
         return true;
